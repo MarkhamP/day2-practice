@@ -4,10 +4,23 @@
 
 div[class*='col-md-'] {
 	height: 75px;
-	background-color: black;
+  background-color: #000;
 }
 .smile {
 
 	background-color: yellow !important;
 
+}
+
+@media only screen and (min-width: 375px) {
+	.smile {
+		background-color: red !important;
+	}
+}
+
+
+@media only screen and (min-width: 768px) {
+	.smile {
+		background-color: aqua !important;
+	}
 }
